@@ -1,0 +1,33 @@
+type: checkiO
+files:
+- name: mission.py
+  visible: true
+  text: |
+    def from_camel_case(name: str) -> str:
+        # replace this for solution
+        return name
+
+
+    print("Example:")
+    print(from_camel_case("MyFunctionName"))
+
+    assert from_camel_case("MyFunctionName") == "my_function_name"
+    assert from_camel_case("IPhone") == "i_phone"
+
+    print("The mission is done! Click 'Check Solution' to earn rewards!")
+  learner_created: false
+status: Unchecked
+code: |
+  def from_camel_case(name: str) -> str:
+      # replace this for solution
+      return name
+
+
+  print("Example:")
+  print(from_camel_case("MyFunctionName"))
+
+  assert from_camel_case("MyFunctionName") == "my_function_name"
+  assert from_camel_case("IPhone") == "i_phone"
+
+  print("The mission is done! Click 'Check Solution' to earn rewards!")
+seconds_from_change: 9223372036854775807
